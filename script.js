@@ -7,4 +7,4 @@ function fibonacciLoop(n) {
 }
 
 // Example usage:
-console.log(fibonacciLoop(10)); // Outputs: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(fibonacciLoop(n)); // Outputs: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
