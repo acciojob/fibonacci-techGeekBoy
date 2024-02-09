@@ -3,7 +3,7 @@ function fibonacciLoop(n) {
     for (let i = 2; i < n; i++) {
         fibArray.push(fibArray[i - 1] + fibArray[i - 2]);
     }
-    return fibArray;
+    return fibArray[n-1];
 }
 
 // Example usage:
