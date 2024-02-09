@@ -6,5 +6,3 @@ function fibonacciLoop(n) {
     return fibArray[n-1];
 }
 
-// Example usage:
-console.log(fibonacciLoop(n)); // Outputs: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
