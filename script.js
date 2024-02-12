@@ -1,24 +1,16 @@
-function fibonacci(num) {
-	if (num === 1) return 0;
-	else if( num === 2) return 1;
-	num -= 2;
-	var num1 =0;
-	var num2 = 1;
-	var sum;
-	var i =0;
-	for(i =0; i< num ; i++){
-	sum = num1 + num2;
-		num1 = num2;
-		num2 = sum;
+
+function fibonacci(n){
+	if(n<=2){
+		return n-1;
 	}
-	return num2;
+	let a = 0 ,b = 1;
+	
+	while(n>2){
+	 let sum = a+b;
+		a = b;
+		b = sum;
+		n--;
+	}
+	return b;
 }
-
 module.exports = fibonacci;
-//     let fibArray = [0, 1];
-//     for (let i = 2; i < n; i++) {
-//         fibArray.push(fibArray[i - 1] + fibArray[i - 2]);
-//     }
-//     return fibArray[n-1];
-// }
-
